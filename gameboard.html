@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ChangaaBu</title>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="board">
+            <!-- Create the game board with cells -->
+            <!-- You can add more cells to create a 5x5 board -->
+            <div class="square" data-row="0" data-col="0">A1</div>
+            <div class="square" data-row="0" data-col="1">A2</div>
+            <div class="square" data-row="0" data-col="2">A3</div>
+            <div class="square" data-row="0" data-col="3">A4</div>
+            <div class="square" data-row="0" data-col="4">A5</div>
+            <div class="square" data-row="1" data-col="0">B1</div>
+            <div class="square" data-row="1" data-col="1">B2</div>
+            <div class="square" data-row="1" data-col="2">B3</div>
+            <div class="square" data-row="1" data-col="3">B4</div>
+            <div class="square" data-row="1" data-col="4">B5</div>
+            <div class="square" data-row="2" data-col="0">C1</div>
+            <div class="square" data-row="2" data-col="1">C2</div>
+            <div class="square" data-row="2" data-col="2">C3</div>
+            <div class="square" data-row="2" data-col="3">C4</div>
+            <div class="square" data-row="2" data-col="4">C5</div>
+            <div class="square" data-row="3" data-col="0">D1</div>
+            <div class="square" data-row="3" data-col="1">D2</div>
+            <div class="square" data-row="3" data-col="2">D3</div>
+            <div class="square" data-row="3" data-col="3">D4</div>
+            <div class="square" data-row="3" data-col="4">D5</div>
+            <div class="square" data-row="4" data-col="0">E1</div>
+            <div class="square" data-row="4" data-col="1">E2</div>
+            <div class="square" data-row="4" data-col="2">E3</div>
+            <div class="square" data-row="4" data-col="3">E4</div>
+            <div class="square" data-row="4" data-col="4">E5</div>
+        </div>
+        <div class="card">
+            <div class="player-card">
+                <div class="player-info">
+                    <h2>Player 1</h2>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+                <div class="timer">
+                    <p>Time Remaining: <span id="timer">60</span> seconds</p>
+                </div>
+            </div>
+            <div class="player-card">
+                <div class="player-info">
+                    <h2>Player 2</h2>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+                <div class="timer">
+                    <p>Time Remaining: <span id="timer">60</span> seconds</p>
+                </div>
+            </div>
+            <div class="player-card">
+                <div class="player-info">
+                    <h2>Player 3</h2>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+                <div class="timer">
+                    <p>Time Remaining: <span id="timer">60</span> seconds</p>
+                </div>
+            </div>
+            <div class="player-card">
+                <div class="player-info">
+                    <h2>Player 4</h2>
+                    <p>Score: <span id="score">0</span></p>
+                </div>
+                <div class="timer">
+                    <p>Time Remaining: <span id="timer">60</span> seconds</p>
+                </div>
+            </div>
+            <div class="dice">
+                Dice roll
+            </div>
+    <button id="rollDice">Roll Dice</button>
+
+        </div>
+
+    </div>
+    <div id="result"></div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
